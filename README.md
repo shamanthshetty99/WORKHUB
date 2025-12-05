@@ -281,8 +281,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👥 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Name](https://linkedin.com/in/yourprofile)
+- GitHub: [@shamanthshetty99](https://github.com/shamanthshetty99)
+- LinkedIn: [Your Name](https://linkedin.com/in/shamanthshetty99)
 
 ## 🙏 Acknowledgments
 
