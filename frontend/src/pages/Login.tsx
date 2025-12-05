@@ -15,7 +15,7 @@ const Login: React.FC = () => {
     setLoading(true);
 
     try {
-      const response = await authService.login(credentials.email, credentials.password);
+      const response = await authService.login(credentials);
       
       if (selectedPortal === 'admin' && response.role !== 'ADMIN') {
         setError('You do not have admin privileges. Please use the Employee Portal.');
