@@ -9,14 +9,9 @@ export interface LoginResponse {
   role: string;
 }
 
-export interface LoginCredentials {
-  email: string;
-  password: string;
-}
-
 class AuthService {
-  async login(credentials: LoginCredentials): Promise<LoginResponse> {
-    const response = await axios.post('/auth/login', credentials);
+  async login(email: string, password: string): Promise<LoginResponse> {
+    const response = await axios.post('/auth/login', { email, password });
     const data = response.data;
     
     localStorage.setItem('token', data.token);
